@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "llm-frontend": "file:",
+    "next": "14.2.24",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.24"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
