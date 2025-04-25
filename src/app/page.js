@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from '../../components/templates/index/Home'
+import Main from '@/components/templates/index/Main'
 
 
 function page() {
   return (
     <>
-    <Home/>
+    <Main/>
     </>
   )
 }

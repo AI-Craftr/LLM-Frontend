@@ -12,7 +12,8 @@
     "llm-frontend": "file:",
     "next": "14.2.24",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-scrollbar": "^4.0.2"
   },
   "devDependencies": {
     "postcss": "^8",
