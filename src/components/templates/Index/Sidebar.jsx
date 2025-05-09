@@ -9,15 +9,13 @@ function Sidebar() {
 
     return (
         <>
-            <div className={`flex md:hidden`}>
-                <div onClick={() => setisOpen(!isOpen)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-10 text-white">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </div>
+            <div className={`flex items-start justify-start md:hidden w-fit h-fit cursor-pointer`} onClick={() => setisOpen(!isOpen)}>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-10 text-white">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
             </div>
             {/* Aside Desktop */}
-            <aside className={`border border-gray-800  fixed top-0 w-72 ${isOpen ? 'left-0' : '-left-[22rem]'} md:static md:flex flex-col p-2 min-h-screen overflow-y-auto max-h-[22rem] bg-[#151B2D] z-20 transition-all duration-300 scroll-m-2`}>
+            <aside className={` border border-gray-800  fixed top-0 w-72 ${isOpen ? 'left-0' : '-left-[22rem]'} md:static md:flex flex-col p-2 min-h-screen overflow-y-auto max-h-[22rem] bg-[#151B2D] z-20 transition-all duration-300`}>
                 <div className='p-3'>
                     <h2 className='text-white text-xl'>C H A T A . I</h2>
                 </div>
